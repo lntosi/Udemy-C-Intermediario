@@ -1,2 +1,5 @@
 # Udemy-C-Intermediario
-Repositório para estudo das aulas (https://www.udemy.com/course/cplusplus-intermediario/).
+
+Repositório para armazenar os códigos do curso da Udemy.
+
+Link: https://www.udemy.com/course/cplusplus-intermediario/
