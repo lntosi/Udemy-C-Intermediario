@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout>
+	<Files>
+		<File Name="main.cpp" Top="No" Tabpos="1" TopLine="5">
+			<Cursor Line="23" Column="23"/>
+		</File>
+		<File Name="equacoes.cpp" Top="Yes" Tabpos="2" TopLine="1">
+			<Cursor Line="39" Column="1"/>
+		</File>
+		<File Name="equacoes.h" Top="No" Tabpos="3" TopLine="1">
+			<Cursor Line="6" Column="6"/>
+		</File>
+	</Files>
+</Layout>

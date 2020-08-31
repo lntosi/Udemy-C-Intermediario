@@ -1,20 +1,26 @@
 /* Esse módulo contém funções matemáticas */
 
-int fatorial(int n)
-{
-	int fat = 1;
+#include <iostream>
 
-	for(int i = 1; i < n; i++)
+using namespace std;
+
+void fatorial()
+{
+	int n, fat = 1;
+	cout << "Digite um numero para calcular o fatorial: ";
+	cin >> n;
+	for(int i = 1; i < n ; i++)
+	{
 		fat = fat * (i + 1);
-	return fat;
+	}
+	cout << "Rasultado do Calculo do Fatorial: " << fat << endl;
 }
 
-int area_quadrado(int lado)
+void area_quadrado()
 {
-	return lado * lado;
-}
-
-int area_retangulo(int altura, int base)
-{
-	return altura * base;
+	int lado, area;
+	cout << "Digite o lado do Quadrado: ";
+	cin >> lado;
+	area = lado * lado;
+	cout << "Resultado do Area do Quadrado: " << area << endl;
 }

@@ -2,7 +2,7 @@
 <Project>
 	<Libs Value=""/>
 	<Flags Value=""/>
-	<Target Value="Projeto.exe"/>
+	<Target Value="00_ProjetoPessoal.exe"/>
 	<CommandLine Value=""/>
 	<CompilerOptions Value="-Wall -s"/>
 	<DeleteObjectsBefore Value="Yes"/>
@@ -15,7 +15,7 @@
 	<AppType Value="CONSOLE"/>
 	<Files>
 		<File Name="main.cpp"/>
-		<File Name="my_math.cpp"/>
-		<File Name="my_math.h"/>
+		<File Name="equacoes.cpp"/>
+		<File Name="equacoes.h"/>
 	</Files>
 </Project>
