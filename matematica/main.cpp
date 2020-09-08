@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 			 << "1 - Fatorial" << endl
 			 << "2 - Potencia" << endl
 			 << "3 - Raiz" << endl
+			 << "4 - Bhaskara" << endl
 			 << "x - Fechar o Programa" << endl
 			 << "Digite a operacao desejada: ";
 		cin >> op;
@@ -27,6 +28,9 @@ int main(int argc, char *argv[])
 			break;
 		case '3':
 			calcularRaiz();
+			break;
+		case '4':
+			calcularBhaskara();
 			break;
 		default:
 			if(op == 'x')

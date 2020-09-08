@@ -36,3 +36,19 @@ void calcularRaiz()
 	raiz = pow(radicando, 1 / indice);
 	cout << "Raiz: " << raiz << "\n\n";
 }
+
+void calcularBhaskara()
+{
+	//Para testar, utilize: a=2 b=-10 c=8
+	double a, b, c, delta, x1, x2;
+	cout << "Digite o valor de a: ";
+	cin >> a;
+	cout << "Digite o valor de b: ";
+	cin >> b;
+	cout << "Digite o valor de c: ";
+	cin >> c;
+	delta = (pow(b, 2)) - (4 * a * c);
+	x1 = (-b + (sqrt(delta))) / (2 * a);
+	x2 = (-b - (sqrt(delta))) / (2 * a);
+	cout << "O valor de x1 e x2 sao: " << x1 << " e " << x2 << "\n\n";
+}

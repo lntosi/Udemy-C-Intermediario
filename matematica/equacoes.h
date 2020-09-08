@@ -4,5 +4,6 @@
 void calcularFatorial();
 void calcularPotencia();
 void calcularRaiz();
+void calcularBhaskara();
 
 #endif
