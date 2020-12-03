@@ -52,3 +52,25 @@ void calcularBhaskara()
 	x2 = (-b - (sqrt(delta))) / (2 * a);
 	cout << "O valor de x1 e x2 sao: " << x1 << " e " << x2 << "\n\n";
 }
+
+void calcularLogBin()
+{
+
+	double logaritmando, logaritmo;
+	cout << "Digite o valor do logaritmando: ";
+	cin >> logaritmando;
+	logaritmo = log2 (logaritmando);
+	cout << "Logaritmo Binario: log  " << logaritmando << " = " << logaritmo << "\n";
+	cout << "                      2 " << "\n\n";
+}
+
+void calcularLogDec()
+{
+
+	double logaritmando, logaritmo;
+	cout << "Digite o valor do logaritmando: ";
+	cin >> logaritmando;
+	logaritmo = log10 (logaritmando);
+	cout << "Logaritmo Decimal: log   " << logaritmando << " = " << logaritmo << "\n";
+    cout << "                      10 " << "\n\n";
+}

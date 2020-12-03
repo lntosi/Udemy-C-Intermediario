@@ -14,6 +14,8 @@ int main(int argc, char *argv[])
 			 << "2 - Potencia" << endl
 			 << "3 - Raiz" << endl
 			 << "4 - Bhaskara" << endl
+			 << "5 - Logaritmo Binario" << endl
+			 << "6 - Logaritmo Decimal" << endl
 			 << "x - Fechar o Programa" << endl
 			 << "Digite a operacao desejada: ";
 		cin >> op;
@@ -31,6 +33,12 @@ int main(int argc, char *argv[])
 			break;
 		case '4':
 			calcularBhaskara();
+			break;
+		case '5':
+			calcularLogBin();
+			break;
+		case '6':
+			calcularLogDec();
 			break;
 		default:
 			if(op == 'x')

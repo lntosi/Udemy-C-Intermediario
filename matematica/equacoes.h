@@ -5,5 +5,7 @@ void calcularFatorial();
 void calcularPotencia();
 void calcularRaiz();
 void calcularBhaskara();
+void calcularLogBin();
+void calcularLogDec();
 
 #endif
